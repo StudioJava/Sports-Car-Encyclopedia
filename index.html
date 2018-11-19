@@ -1,48 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Untitled Document</title>
-    <!-- Bootstrap -->
-	<link href="css/bootstrap-4.0.0.css" rel="stylesheet">
-	<!--Main CSS-->
-	 <link rel="stylesheet" href="css/main.css">
-	  
-	
-  </head>
-  <body>
-  	<!-- body code goes here -->
-	  <div class="container">
-	  <div class="row">
-		  <div class="col">
-		
-			  	 <!-- Navigation -->
-			  <ul class="nav nav-tabs nav-justified scrollbar pt-2 pb-2">
-				  <li class="nav-item"><a  href="#1950" class="nav-link nav-item active">1950</a></li>
-				  <li class="nav-item"><a href="#1951" class="nav-link nav-item">1951</a></li>
-				  <li class="nav-item"><a href="#1952" class="nav-link nav-item">1952</a></li>
-				  <li class="nav-item"><a href="#1953" class="nav-link nav-item">1953</a></li>
-				  <li class="nav-item"><a href="#1954" class="nav-link nav-item">1954</a></li>
-				  <li class="nav-item"><a href="#1955" class="nav-link nav-item">1955</a></li>
-				  <li class="nav-item"><a href="#1956" class="nav-link nav-item">1956</a></li>
-				  <li class="nav-item"><a href="#1957" class="nav-link nav-item">1957</a></li>
-				  <li class="nav-item"><a href="#1958" class="nav-link nav-item">1958</a></li>
-				  <li class="nav-item"><a href="#1959" class="nav-link nav-item">1959</a></li>
-				  <li class="nav-item"><a href="#1960" class="nav-link nav-item">1960</a></li>
-			  </ul>
-			  
-		  </div>
-		  </div>
-	  </div>
-	 
-	
-	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
-	<script src="js/jquery-3.2.1.min.js"></script>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Untitled Document</title>
+<!-- Bootstrap -->
+<link href="css/bootstrap-4.0.0.css" rel="stylesheet">
+<!--Main CSS-->
+<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<!-- body code goes here -->
+<div class="container">
+  <div class="row">
+    <div class="col"> 
+      
+      <!-- Navigation -->
+      <ul class="nav nav-tabs nav-justified scrollbar pt-2 pb-2" id="myTab" role="tablist">
+        <li class="nav-item"> 
+			<a class="nav-link active" id="1950-tab" data-toggle="tab" href="#1950" role="tab" aria-controls="1950" aria-selected="true">1950</a> </li>
+        <li class="nav-item"> 
+			<a class="nav-link" id="profile-tab" data-toggle="tab" href="#1951" role="tab" aria-controls="1951" aria-selected="false">1951</a> </li>
+        <li class="nav-item"> 
+			<a class="nav-link" id="messages-tab" data-toggle="tab" href="#messages" role="tab" aria-controls="messages" aria-selected="false">Messages</a> </li>
+        <li class="nav-item"> 
+			<a class="nav-link" id="settings-tab" data-toggle="tab" href="#settings" role="tab" aria-controls="settings" aria-selected="false">Settings</a> </li>
+      </ul>
+     <!-- Tab panes -->
+<div class="tab-content">
+  <div class="tab-pane active" id="1950" role="tabpanel" aria-labelledby="1950-tab">
+	  <h3>Corvette 1950</h3>
+	  <img src="images/corv-1950.png" alt="" class="img-fluid">
+	  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit quisquam tempore, soluta eaque temporibus, fuga quidem veniam! Fugit minima aspernatur tenetur impedit! Odio dolorem ad ipsam ratione mollitia vero consectetur?</p>
+	</div>
+  <div class="tab-pane" id="1951" role="tabpanel" aria-labelledby="1951-tab">
+	  <h3>Mustang 1951</h3>
+	  <img src="images/mustang-1951.png" alt="" class="img-fluid">
+	  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, nobis. Quod aut sequi ex tempore facere quisquam maxime, animi dicta officia, quidem natus velit corporis recusandae, ad a earum suscipit!</p>
+	</div>
+  <div class="tab-pane" id="messages" role="tabpanel" aria-labelledby="messages-tab">
+	  <h3>Title 1952</h3>
+	  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero ipsa mollitia fuga eos praesentium rerum iste veniam eius id expedita, asperiores dolor fugit doloribus alias, veritatis aliquid nihil consequatur! Ex.</p>
+	</div>
+  <div class="tab-pane" id="settings" role="tabpanel" aria-labelledby="settings-tab">
+	  <h3>Title 1953</h3>
+	  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur molestias consequuntur, at fuga deserunt, eos aperiam pariatur laborum sit eius doloremque debitis deleniti cupiditate. Earum nam, nisi dicta! Eveniet, cupiditate.</p>
+	</div>
+</div>
+    </div>
+    <!-- END OF COL --> 
+  </div>
+  <!-- END OF ROW --> 
+  
+</div>
+<!-- END OF CONTAINER --> 
 
-	<!-- Include all compiled plugins (below), or include individual files as needed -->
-	<script src="js/popper.min.js"></script> 
-	<script src="js/bootstrap-4.0.0.js"></script>
-  </body>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script src="js/jquery-3.2.1.min.js"></script> 
+
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<script src="js/popper.min.js"></script> 
+<script src="js/bootstrap-4.0.0.js"></script>
+</body>
 </html>
