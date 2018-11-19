@@ -1,0 +1,15 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.scrollbar{
+	height: 4.5rem;
+ display: flex;
+		flex-wrap: nowrap;
+		overflow-x: auto;
+
+}
+.scrollbar li a{
+	flex: 0 0 auto;
+		
+ -webkit-overflow-scrolling: touch;
+}
