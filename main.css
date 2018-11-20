@@ -1,18 +1,11 @@
 @charset "UTF-8";
 /* CSS Document */
 
-@import url('https://fonts.googleapis.com/css?family=Comfortaa:300,700');
+
 
 
 /* font-family: 'Comfortaa', cursive;*/
-.font-1{
-	font-family: 'Comfortaa', cursive;
-	font-weight: 300;
-}
-.font-2{
-		font-family: 'Comfortaa', cursive;
-	font-weight: 700;
-}
+
 .scrollbar{
 	height: 4.5rem;
  display: flex;
@@ -25,15 +18,5 @@
 		
  -webkit-overflow-scrolling: touch;
 }
-.corvette-p {
-}
-#demo {
-}
-.effect-1{
-    border-left-width: medium;
-    border-right-width: medium;
-    border-bottom-width: medium;
-    border-top: thin solid rgba(101,98,98,1.00);
-    -webkit-box-shadow: 0px 0px;
-    box-shadow: 0px 0px;
-}
+
+
