@@ -43,3 +43,59 @@
     -webkit-box-shadow: 0px -5px 22px -4px;
     box-shadow: 0px -5px 22px -4px;
 }
+/*carousel*/
+.carousel-indicators-numbers li {
+     
+      text-indent: 0;
+      margin: 0 2px;
+      width: 30px;
+      height: 30px;
+      border: none;
+      border-radius: 100%;
+      line-height: 30px;
+      color: #F1F0F0;
+     background-color: rgba(112,98,238,1.00);
+      transition: all 0.25s ease;
+}
+
+li.active{
+	background-color: black !important;
+}
+
+.ol-eff-1{
+	margin: -0px 150px -60px 0px;
+}
+
+.extend{
+	min-height: 40px;
+}       
+     
+ /*carousel*/
+.carousel-indicators-numbers li {
+     
+      text-indent: 0;
+      margin: 0 2px;
+      width: 30px;
+      height: 30px;
+      border: none;
+      border-radius: 100%;
+      line-height: 30px;
+      color: #F1F0F0;
+     background-color: rgba(112,98,238,1.00);
+      transition: all 0.25s ease;
+}
+
+li.active{
+	background-color: black !important;
+}
+
+.ol-eff-1{
+	margin: -0px 110px -60px 0px;
+}
+
+.extend{
+	min-height: 40px;
+} 
+.extend{
+	margin-top: 70px;
+}
